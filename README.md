@@ -24,12 +24,15 @@ Algorithm for grouping related items:
 - By default, select people from the same discord (Guild).
 - All the selected people must be able to do remote PvP. (Relationships in "UserRelationship")
 
-Guilds
+__Guilds__
+
 id|discordId|Name
 
-User
+__User__
+
 id|DiscordId|ingameName|GuildId
 
-UserRelationships
+__UserRelationships__
+
 UserId1|UserId2
 
