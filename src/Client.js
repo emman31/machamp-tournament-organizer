@@ -20,7 +20,7 @@ class Client extends Discord.Client {
         this.name = options.name;
 
         this.on('ready', this.ready); // Runs dynamic import of module files inside folders in `rootDirName`
-//        this.on('message', this.message); // Runs the on message event listener
+        this.on('message', this.message); // Runs the on message event listener
         this.on('error', (e) => { this.error(e); });
     }
 
